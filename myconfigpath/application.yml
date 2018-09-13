@@ -1,26 +1,5 @@
-spring:
-  application:
-    name: config-server
-  cloud:
-    consul:
-      host: localhost
-      port: 8500
-      discovery:
-        prefer-ip-address: true
-    config:
-      server:
-        git:
-#          uri: http://git.sipin.one/projects/
-#          search-paths: SPSC/repos/sipin-sales-cloud-backend-member/browse/sipin-sales-cloud-backend-member-service/src/main/resources
-#          password: h37jNR23
-#          username: joey.zhou
-          uri: https://github.com/zhouxhhn/springCloudConfig
-          search-paths: myconfigpath
-          password: 870421zxh..
-          username: zhouxhhn
-#      username: user
-#      password: 123456
-server:
-  port: 7001
+logging:
+  appDir: /usr/local/logs
+
 
 
